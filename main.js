@@ -15,7 +15,7 @@ let roverRect = {
   width: 100,
   height: 100,
 };
-let roverSpeed = 3;
+let roverSpeed = 6;
 let roverDirection = "right";
 let waterRect = {
   x: Math.floor(Math.random() * (canvas.width - 100)),
@@ -23,7 +23,7 @@ let waterRect = {
   width: 50,
   height: 50,
 };
-let waterSpeed = 2;
+let waterSpeed = 3;
 let score = 0;
 
 // set up game fonts
