@@ -78,6 +78,17 @@ function gameLoop() {
   // request next animation frame
   requestAnimationFrame(gameLoop);
 }
+canvas.addEventListener('touchstart', function(event) {
+  // Обработка события touchstart
+});
+
+canvas.addEventListener('touchmove', function(event) {
+  // Обработка события touchmove
+});
+
+canvas.addEventListener('touchend', function(event) {
+  // Обработка события touchend
+});
 
 // start game loop
 requestAnimationFrame(gameLoop);
